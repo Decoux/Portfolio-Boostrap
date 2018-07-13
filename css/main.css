@@ -144,6 +144,8 @@ textarea {
       background-color: #2259bb;
       transition: all 0.5s ease;
       cursor: pointer;
+      color: white;
+      text-decoration: none;
     }
 
     #slider{
