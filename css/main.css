@@ -202,6 +202,196 @@ textarea {
       width: 20px;
     }
 
+    /*========CSS about.html==========*/
+
+    .about > p{
+      font-size: 16px;
+
+    }
+    .about{
+      font-size: 15px;
+      width: 76%;
+      margin: auto auto;
+    }
+
+
+    .about > .typewriter{
+      font-size: 10px;
+      font-style: italic;
+    }
+
+    .article-about{
+      height: auto;
+    }
+
+    /*========CSS contact.html=========*/
+
+    article > iframe{
+      align-self: center;
+      border: 2px solid #4CAF50;
+      width: 99%;
+    }
+
+    .coordonnées{
+      width: 100%;
+      align-self: center;
+    }
+
+    .coordonnées > p{
+      text-align: center;
+    }
+
+
+    form{
+      width: 99%;
+    }
+
+    form > input{
+      border: none;
+      background-color: #91ff95;
+      width: 100%;
+      margin-top: 8px;
+      padding: 2px;
+    }
+
+    form > textarea{
+      margin-top: 3%;
+      width: 100%;
+      margin-bottom: 3%;
+    }
+
+    .block1{
+      width: 99%;
+    }
+
+    .send{
+      margin-bottom: 3%;
+    }
+
+
+    /*===========CSS portfolio.html===========*/
+
+    .portfolio > .content{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+
+    .portfolio{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .portfolio > .content > a {
+      text-align: center;
+      margin-top: 2%;
+    }
+
+    .portfolio >.content > a > img{
+      width: 50%;
+      box-shadow: 0px 15px 29px 0px #4CAF50;
+    }
+
+
+    .portfolio > .description{
+      width: 50%;
+      margin: auto;
+      display: none;
+    }
+
+    .article-portfolio{
+      height: auto;
+    }
+
+
+    @media (min-width:768px) {
+
+
+      .about > p{
+        font-size: 20px;
+
+      }
+
+      .about{
+        width: 80%;
+        margin:  auto auto;
+        font-size: 30px;
+      }
+
+      .about > .typewriter {
+        font-size: 18px;
+        color:#4CAF50;
+      }
+
+      .box{
+        padding-bottom: 4%;
+      }
+      /*======css contact.html=========*/
+
+      .block1{
+        display: flex;
+        flex-direction: row;
+      }
+
+      /*=======CSS portfolio.html==========*/
+
+      .portfolio > .content{
+        width: 50%;
+      }
+
+      .portfolio{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .portfolio > .description{
+        display: block;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .typewriter {
+      color: black;
+      font-size: 16px;
+      font-family: monospace;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+
+      letter-spacing: .15em; /* Adjust as needed */
+      animation:
+        typing 5s steps(30, end),
+        blink-caret .5s step-end infinite;
+      }
+
+      .about{
+        margin-top: 10%;
+      }
+
+      .about > .typewriter {
+        font-size: 16px;
+      }
+
+
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange }
+      }
+
+    }
+
+    @media (min-width: 1200px) {
+
+    }
+
 
 
 
