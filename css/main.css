@@ -234,8 +234,12 @@ textarea {
       margin: auto auto;
     }
 
+    .type{
+      width: 76%;
+      margin: 0 auto;
+      }
 
-    .about > .typewriter{
+    .about > .type > .typewriter{
       font-size: 10px;
       font-style: italic;
     }
@@ -377,7 +381,8 @@ textarea {
     @media (min-width: 992px) {
       .typewriter {
       color: black;
-      font-size: 16px;
+      font-size: 12px;
+      width: 93%;
       font-family: monospace;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       border-right: .15em solid orange; /* The typwriter cursor */
@@ -394,7 +399,7 @@ textarea {
       }
 
       .about > .typewriter {
-        font-size: 16px;
+        font-size: 14px;
       }
 
 
