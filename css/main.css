@@ -113,6 +113,27 @@ textarea {
      flex: 1;
    }
 
+   #color{
+     color: white;
+     font-weight: bold;
+   }
+   video#bgvid {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+ }
+
    article >.intro{
      text-align: center;
      font-weight: bold;
@@ -127,8 +148,8 @@ textarea {
 
    p{
      font-family: metroscript,sans-serif;
-
    }
+
    .button {
       background-color: #4CAF50; /* Green */
       border: none;
@@ -195,7 +216,6 @@ textarea {
     }
 
     footer{
-      background-color: black;
       display: flex;
       justify-content: flex-end;
     }
@@ -208,6 +228,8 @@ textarea {
 
     .about > p{
       font-size: 16px;
+      font-weight: bold;
+      color: green;
 
     }
     .about{
@@ -237,6 +259,7 @@ textarea {
     .coordonnées{
       width: 100%;
       align-self: center;
+      color: white;
     }
 
     .coordonnées > p{
@@ -300,6 +323,11 @@ textarea {
       width: 50%;
       margin: auto;
       display: none;
+    }
+
+    .portfolio > .description > p{
+      color: green;
+      font-weight: bold;
     }
 
     .article-portfolio{
