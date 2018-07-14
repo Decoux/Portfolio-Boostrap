@@ -381,7 +381,7 @@ textarea {
     @media (min-width: 992px) {
       .typewriter {
       color: black;
-      font-size: 12px;
+      font-size: 10px;
       width: auto;
       font-family: monospace;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -398,7 +398,7 @@ textarea {
         margin-top: 10%;
       }
 
-      
+
 
 
       /* The typing effect */
