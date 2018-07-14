@@ -97,10 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .color{
-     color: green;
-   }
-
    html{
      height: 100vh;
    }
@@ -132,6 +128,7 @@ textarea {
         transform: translateX(-50%) translateY(-50%);
         background: url(polina.jpg) no-repeat;
         background-size: cover;
+        opacity: 0.6;
  }
 
    article >.intro{
@@ -229,7 +226,6 @@ textarea {
     .about > p{
       font-size: 16px;
       font-weight: bold;
-      color: green;
 
     }
     .about{
@@ -259,7 +255,6 @@ textarea {
     .coordonnées{
       width: 100%;
       align-self: center;
-      color: white;
     }
 
     .coordonnées > p{
@@ -326,7 +321,6 @@ textarea {
     }
 
     .portfolio > .description > p{
-      color: green;
       font-weight: bold;
     }
 
