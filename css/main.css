@@ -382,7 +382,7 @@ textarea {
       .typewriter {
       color: black;
       font-size: 12px;
-      width: 93%;
+      width: auto;
       font-family: monospace;
       overflow: hidden; /* Ensures the content is not revealed until the animation */
       border-right: .15em solid orange; /* The typwriter cursor */
@@ -398,9 +398,7 @@ textarea {
         margin-top: 10%;
       }
 
-      .typewriter {
-        font-size: 14px;
-      }
+      
 
 
       /* The typing effect */
