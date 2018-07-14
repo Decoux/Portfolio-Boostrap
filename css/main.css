@@ -398,7 +398,7 @@ textarea {
         margin-top: 10%;
       }
 
-      .about > .typewriter {
+      .typewriter {
         font-size: 14px;
       }
 
@@ -419,6 +419,10 @@ textarea {
 
     @media (min-width: 1200px) {
 
+      .typewriter{
+        font-size: 16px;
+        width: 100%;
+      }
     }
 
 
