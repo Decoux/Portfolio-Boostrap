@@ -113,6 +113,13 @@ textarea {
      color: white;
      font-weight: bold;
    }
+
+   nav > .logo{
+     display: none;
+   }
+
+   
+
    video#bgvid {
         position: fixed;
         top: 50%;
@@ -396,6 +403,15 @@ textarea {
 
       .about{
         margin-top: 10%;
+      }
+
+      nav > .logo{
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .logo > img{
+        width: 15%;
       }
 
 
