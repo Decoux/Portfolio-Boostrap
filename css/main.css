@@ -118,7 +118,7 @@ textarea {
      display: none;
    }
 
-   
+
 
    video#bgvid {
         position: fixed;
@@ -412,6 +412,7 @@ textarea {
 
       .logo > img{
         width: 15%;
+        height: 15%;
       }
 
 
